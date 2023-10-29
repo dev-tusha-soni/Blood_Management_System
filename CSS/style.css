@@ -1,0 +1,54 @@
+
+/* Color and font variable */
+:root{
+    --primary-color: #D83F31;
+    --hover-color: #292929;
+    /* --primary-color: #; */
+    --off-white-color: #F5F5F5;
+    --white-color: #fff;
+    --text-color: #1a1a1a;
+    --secondary-font: 'Open Sans', sans-serif;
+    --main-font: 'DM Sans', sans-serif;
+}
+
+.default-btn{
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 5px;
+    font-family: var(--main-font);
+    background-color: var(--text-color);
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.default-btn:hover{
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
+.wrapper{
+    padding-top: 100px;
+}
+
+/* hero-section-style */
+.hero-title{
+    background-image: url('/image/blood-ng.png');
+    height: 640px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.services-section .card:hover{
+    box-shadow: 5px 5px 20px #00000017;
+}
+
+.services-section .card .card-body .default-btn{
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
